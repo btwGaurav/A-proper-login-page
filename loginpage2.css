@@ -1,0 +1,109 @@
+*{
+    margin: 0;padding: 0;
+    
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url(https://images.unsplash.com/photo-1725988208207-a15e5f5eb5fb?w=1600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDR8Q0R3dXdYSkFiRXd8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+.container{
+    background: transparent;
+    border: 2px solid rgb(232, 179, 179);
+    width: 400px;
+    text-align: center;
+    border-radius: 20px;
+    backdrop-filter: blur(8px);
+    padding: 20px 0px;
+}
+.container .login{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: aliceblue;
+}
+.login{
+    margin: 25px;
+
+
+}
+.login:hover{
+    transform: scale(1.08);
+}
+.username input {width: 80%;
+    height: 35px;
+    border-radius: 20px;
+    padding-left: 20px;
+    border: 2px solid whitesmoke;
+    background: transparent;
+}
+.username input::placeholder {
+ color: whitesmoke;
+
+}
+.password input::placeholder{
+    color: whitesmoke;
+}
+.password input{ padding-left: 20px;
+    border: 2px solid whitesmoke;
+
+    width: 80%;
+    margin-top: 30px;
+    height: 35px;
+    border-radius: 20px;
+    background: transparent;
+    
+
+}
+.container .remember-forgot{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ .remembre{
+    margin-top: 10px;
+    margin-left: 30px;
+    color: whitesmoke;
+    
+}
+label{margin-left: 5px;
+    color: whitesmoke;
+}
+.forgot{
+    margin-right: 30px;
+    color: whitesmoke;
+}
+button{
+    margin-top: 30px;
+    width: 60%;
+    height: 35px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000px;
+    background: white;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 20px;
+
+}
+button:hover{
+    background: grey;
+}
+.register {
+    color: aliceblue;
+    margin-top: 20[x];
+    margin-bottom: 30px;
+}
+.register a{
+    color: aliceblue;
+    margin-top: 20[x];
+    margin-bottom: 30px;
+}
