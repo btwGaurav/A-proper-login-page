@@ -7,12 +7,27 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background: url(https://images.unsplash.com/photo-1725988208207-a15e5f5eb5fb?w=1600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDR8Q0R3dXdYSkFiRXd8fGVufDB8fHx8fA%3D%3D);
+    
     background-size: cover;
     background-position: center;
     font-family: Arial, Helvetica, sans-serif;
+    position: relative;
 
 
+}
+body::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url(https://images.unsplash.com/photo-1725988208207-a15e5f5eb5fb?w=1600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDR8Q0R3dXdYSkFiRXd8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+
+
+    mask-image: url(ezgif-3-cad4a959a4.gif);
+    mask-size: cover;
+    mask-position: center;
+    z-index: -1;
 }
 .container{
     background: transparent;

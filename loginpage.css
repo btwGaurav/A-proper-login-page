@@ -9,10 +9,23 @@ body{
     ;
     align-items: center;
     min-height: 100vh;
-    background: url(backgroungblue.png);
     width: 100vw;
     background-size: cover;
     background-position: center;
+}
+body::before{
+    content: '';
+    background-image: url(backgroungblue.png);
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    inset: 0;
+
+    mask-image: url(ezgif-3-cad4a959a4.gif);
+    mask-position: center;
+    mask-size: cover;
+
 }
 .container{
     background: transparent;
